@@ -1,0 +1,118 @@
+* {
+ margin: 0px;
+ padding: 0px;
+ list-style: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+header {
+    background-color:  rgb(78, 135, 168);
+    padding: 70px;
+    display: flex;
+    justify-content: end;
+
+}
+header nav ul  {
+    display: flex;
+    
+}
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.sessao1 {
+    background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%); 
+    padding: 200px;
+    width: auto;
+}
+
+.sessao1 h1 {
+    font-size: 50px;
+}
+
+.sessao1 p {
+    font-size: 30px;
+}
+
+.sessao1 button {
+    padding: 20px; 
+    border-radius: 50px; 
+    width: 300px; 
+    cursor: pointer;
+    border-color: rgb(19, 153, 108); 
+    margin: 30px; 
+    color: aqua;
+    
+}
+
+#app {
+    padding: 200px;
+    display: flex;
+    background-color: rgb(226, 233, 233); 
+    justify-content: space-around;
+}
+
+#app div img {
+    width: 200px;
+    height: 230px; 
+    margin-left: 50px; 
+    margin-top: -70px; 
+
+}
+#app div button {
+    padding: 20px; 
+    border-radius: 50px; 
+    width: 300px; 
+    cursor: pointer;
+    border-color: rgb(19, 153, 108); 
+    margin: 30px; 
+    color: aqua;
+   
+    
+}
+
+#app div p {
+    font-size: 20px;
+   
+}
+
+#container {
+    background-color: rgb(226, 233, 233);
+    padding: 270px;
+    justify-content:center ;
+
+}
+
+#container h2 {
+    font-size: 40px; 
+    margin-top: -20rem; 
+    color: rgb(34, 34, 74); 
+    text-align: center;
+}
+
+#container p {
+    font-size: 20px; 
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.564); 
+    text-align: justify; 
+}
+#container button {
+    padding: 20px; 
+    border-radius: 50px; 
+    width: 300px; 
+    cursor: pointer;
+    border-color: rgb(19, 153, 108); 
+    margin: 30px; 
+    color: aqua;
+}
+
+
+
