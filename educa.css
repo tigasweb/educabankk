@@ -28,6 +28,11 @@ header nav ul li a {
     text-decoration: none;
 }
 
+header li a:hover {
+    color: rgb(63, 7, 80);
+    transition: 0.8s;
+}
+
 .sessao1 {
     background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%); 
     padding: 200px;
@@ -36,6 +41,7 @@ header nav ul li a {
 
 .sessao1 h1 {
     font-size: 50px;
+    color: rgba(0, 0, 0, 0.447);
 }
 
 .sessao1 p {
@@ -52,22 +58,27 @@ header nav ul li a {
     color: aqua;
     
 }
+.sessao1 button:hover {
+    color:white;
+    transition: 0.8s;
+    background-color: rgb(2, 124, 73);
+    border-color: white;
+}
 
-#app {
+.sessao2 {
     padding: 200px;
     display: flex;
     background-color: rgb(226, 233, 233); 
     justify-content: space-around;
 }
 
-#app div img {
-    width: 200px;
-    height: 230px; 
-    margin-left: 50px; 
-    margin-top: -70px; 
+.sessao2 div img {
+    height: 380px; 
+    margin-top: -40px; 
+    
 
 }
-#app div button {
+.sessao2 div button {
     padding: 20px; 
     border-radius: 50px; 
     width: 300px; 
@@ -78,40 +89,95 @@ header nav ul li a {
    
     
 }
+.sessao2 button:hover {
+    color: white;
+    transition: 0.8s;
+    border-color: white;
+    background-color: rgba(38, 193, 240, 0.705);
+}
 
-#app div p {
-    font-size: 20px;
+.sessao2 div p {
+    font-size: 40px;
    
 }
 
-#container {
+.sessao3 {
     background-color: rgb(226, 233, 233);
     padding: 270px;
     justify-content:center ;
 
 }
 
-#container h2 {
-    font-size: 40px; 
-    margin-top: -20rem; 
+.sessao3 h2 {
+    font-size: 40px;  
     color: rgb(34, 34, 74); 
     text-align: center;
+    margin-top: 15px;
 }
 
-#container p {
+.sessao3 p {
     font-size: 20px; 
     margin-top: 30px;
     color: rgba(0, 0, 0, 0.564); 
     text-align: justify; 
 }
-#container button {
+.sessao3 button {
     padding: 20px; 
-    border-radius: 50px; 
-    width: 300px; 
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
     cursor: pointer;
-    border-color: rgb(19, 153, 108); 
-    margin: 30px; 
-    color: aqua;
+    border-color: rgb(96, 96, 255);
+}
+.sessao3 button:hover {
+
+    color: white;
+    transition: 0.8s;
+    background-color: blue;
+    border-color: white;
+}
+
+.sessao3 img{
+    width: 700px;
+    margin: 30px;
+    
+}
+
+.sessao4 {
+    background-image: url(imagens/img\ cofre\ fundo.jpg);
+    background-position: center; 
+    background-attachment: fixed; 
+    padding: 300px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center ;
+
+    
+}
+
+.sessao4 img{
+    width: 300px;
+    margin-right: 500px;
+
+}
+
+.sessao4 h3 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 10px;
+    
+
+}
+.sessao4 p {
+    font-size: 25px;
+    color: rgb(14, 13, 13);
+    
+}
+
+.sessao4 h3 span {
+    color: yellow;
+
 }
 
 
