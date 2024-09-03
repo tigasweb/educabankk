@@ -8,141 +8,151 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 
 header {
-    background-color:  rgb(78, 135, 168);
-    padding: 70px;
-    display: flex;
-    justify-content: end;
+    background-color:  rgb(78, 135, 168); /*cor de fundo do cabecario da pagina*/
+    padding: 70px;/*tamanho do cabecario*/
+    display: flex;/*transfomando os itens em flex deixando lado a lado*/
+    justify-content: end; /*jogando os itens para o fim do cabeçario*/
 
 }
 header nav ul  {
-    display: flex;
+    display: flex; /*deixando os links lado a lado*/
     
 }
 header nav ul li {
-    margin-left: 20px;
+    margin-left: 20px;/*separando os links*/
 }
 
 header nav ul li a {
-    font-size: 12px;
-    color: white;
-    text-decoration: none;
+    font-size: 12px;/*taamanho do texto da ancora*/
+    color: white;/*cor para o texto na ancora*/
+    text-decoration: none; /*tirando o jeito padrao de links*/
 }
 
 header li a:hover {
-    color: rgb(63, 7, 80);
-    transition: 0.8s;
+    color: rgb(63, 7, 80);/*tranzição mudança de cor do link*/
+    transition: 0.8s;/*tempo que a tranzição sera realizada*/
 }
 
 .sessao1 {
-    background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%); 
-    padding: 200px;
-    width: auto;
+    background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);/*cor de fundo da sessao 1*/ 
+    padding: 200px;/*tamanho da sessao1*/
+    width: auto;/*deixando a largura mudar automaticamente */
 }
 
 .sessao1 h1 {
-    font-size: 50px;
-    color: rgba(0, 0, 0, 0.447);
+    font-size: 50px; /*tamanho da letra no h1*/
+    color: rgba(0, 0, 0, 0.447);/*cor do texto h1*/
 }
 
 .sessao1 p {
-    font-size: 30px;
+    font-size: 30px;/*tamanho do texto do paragrafo*/
 }
 
 .sessao1 button {
-    padding: 20px; 
-    border-radius: 50px; 
-    width: 300px; 
-    cursor: pointer;
-    border-color: rgb(19, 153, 108); 
-    margin: 30px; 
-    color: aqua;
+    padding: 20px; /*tamanho do botao */
+    border-radius: 50px; /*arredondamento da borda do botao*/
+    width: 300px; /*largura do botao*/
+    cursor: pointer;/*mouse mudará quando passa-ló em cima do botao*/
+    border-color: rgb(19, 153, 108); /*cor da borda do botao*/
+    margin: 30px; /*espaçamento do botao para todos os lados*/
+    color: aqua;/*cor do texto dentro do botao*/
     
 }
 .sessao1 button:hover {
-    color:white;
-    transition: 0.8s;
-    background-color: rgb(2, 124, 73);
-    border-color: white;
+    color:white; /*mudança da cor do botao quando passar o mouse*/
+    transition: 0.8s;/*tempo que a tranziçao sera feita*/
+    background-color: rgb(2, 124, 73);/*mudança da cor de fundo*/
+    border-color: white;/*cor da borda*/
 }
 
 .sessao2 {
-    padding: 200px;
-    display: flex;
-    background-color: rgb(226, 233, 233); 
-    justify-content: space-around;
+    padding: 200px;/*preenchimento da sessao*/
+    display: flex;/*torando a sessao flex*/
+    background-color: rgb(226, 233, 233);/*cor de fundo da sessao2*/ 
+    justify-content: space-around;/*alinhamento na horizontal*/
+    align-items: center; /*alinhamento na vertical*/
+
 }
 
 .sessao2 div img {
-    height: 380px; 
-    margin-top: -40px; 
+    height: 380px; /*tamanho da imagem*/
+    margin-top: -40px; /*espaçamento da imagem colocando ela mais para cima*/
     
 
 }
 .sessao2 div button {
-    padding: 20px; 
-    border-radius: 50px; 
-    width: 300px; 
-    cursor: pointer;
-    border-color: rgb(19, 153, 108); 
-    margin: 30px; 
-    color: aqua;
+    padding: 20px; /*tamanho do botao*/
+    border-radius: 50px;/*arredondamento da borda do botao*/ 
+    width: 300px; /*largura do botao*/
+    cursor: pointer;/*mouse muda quando passar em cima do botao*/
+    border-color: rgb(19, 153, 108);/*cor da borda do botao*/ 
+    margin: 30px; /*espacamento para todos os lados */
+    color: aqua;/*cor de texto do botao*/
    
     
 }
 .sessao2 button:hover {
-    color: white;
-    transition: 0.8s;
-    border-color: white;
-    background-color: rgba(38, 193, 240, 0.705);
+    color: white;/*cor alterada quando mouse passar em cima*/
+    transition: 0.8s;/*tempo que a tranzição sera realizada*/
+    border-color: white;/*cor da borda  alterada */
+    background-color: rgba(38, 193, 240, 0.705);/*cor de fundo alterada */
 }
 
 .sessao2 div p {
-    font-size: 40px;
+    font-size: 40px; /*tamanho da letra*/
+   
    
 }
 
 .sessao3 {
-    background-color: rgb(226, 233, 233);
-    padding: 270px;
-    justify-content:center ;
+    background-color: rgb(226, 233, 233);/*cor de fundo da sessao3*/
+    padding: 270px;/*preenchimento da sessao3*/
+    justify-content:center ;/* itens estaram alinhando ao centro */
 
 }
 
 .sessao3 h2 {
-    font-size: 40px;  
-    color: rgb(34, 34, 74); 
-    text-align: center;
-    margin-top: 15px;
+    font-size: 40px;  /*tamanho do texto*/
+    color: rgb(34, 34, 74); /*cor do texto*/
+    text-align: center;/*alinhar ao meio*/
+    margin-top: -170px;/*em relasao a sessao de cima*/
 }
 
 .sessao3 p {
-    font-size: 20px; 
-    margin-top: 30px;
-    color: rgba(0, 0, 0, 0.564); 
-    text-align: justify; 
+    font-size: 20px; /*tamanho da letra*/
+    margin-top: 30px;/*margin superior*/
+    color: rgba(0, 0, 0, 0.564); /*cor da letra*/
+    text-align: justify; /*aqui justificamos o texto*/
 }
 .sessao3 button {
-    padding: 20px; 
-    width: 200px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-radius: 30px;
-    cursor: pointer;
-    border-color: rgb(96, 96, 255);
+    padding: 20px; /*preenchimento do botão*/
+    width: 200px;/*largura do botao*/
+    margin-top: 30px;/*margin superior*/
+    margin-bottom: 30px;/*margin inferior*/
+    border-radius: 30px;/*arredondamento da borda do botao*/
+    cursor: pointer;/*mouse muda-ra quando passar no botao*/
+    border-color: rgb(96, 96, 255);/*cor da borda*/
 }
 .sessao3 button:hover {
 
-    color: white;
-    transition: 0.8s;
-    background-color: blue;
-    border-color: white;
+    color: white;/*cor da letra do botao*/
+    transition: 0.8s;/*tempo que realiza a tranziçao*/
+    background-color: blue;/*cor de fundo do botao*/
+    border-color: white;/*cor da borda  do botao*/
+}
+.line {
+    width: 120px; /*largura da linha*/
+    margin: 40px auto; /*espacamento de 40px top e bottom e esquerda e direita automaticas*/
 }
 
 .sessao3 img{
-    width: 700px;
-    margin: 30px;
+    width: 700px; /*largura da imagem*/
+    margin: 30px; /*espacamento de todos os lados*/
     
+    /*IREMOS ALTERAR A FORMAÇÃO DE ALINHAMENTO*/
+
 }
+
 
 .sessao4 {
     background-image: url(imagens/img\ cofre\ fundo.jpg);
@@ -178,6 +188,47 @@ header li a:hover {
 .sessao4 h3 span {
     color: yellow;
 
+}
+
+footer {
+    background-color:rgb(37, 31, 31) ;
+    padding: 80px;
+    text-align: center;
+   
+
+}
+
+footer img {
+    width: 180px;
+    margin-top:-5px ;
+    margin-bottom: 20px;
+   
+    margin: 100px;
+
+
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+   
+   
+}
+footer div p {
+    margin: 55px;
+     
+    color: #c0cdcf;
+
+}
+footer div a {
+    text-decoration: none;
+    color: white;
+}
+
+footer div a:hover {
+    color: crimson;
+    transition: 0.8s;
 }
 
 
